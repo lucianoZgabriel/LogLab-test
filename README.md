@@ -1,6 +1,6 @@
 # LogLab-test
 
-# API Rest com Node.js e Express 
+# Questão 2 (API Rest com Node.js e Express) 
 
 Este projeto é uma API Rest que retorna uma lista de usuários fictícios gerados a partir da biblioteca `faker`.
 
@@ -15,3 +15,7 @@ Este projeto é uma API Rest que retorna uma lista de usuários fictícios gerad
 ## Testando
 
 Esta API pode ser testada usando ferramentas como Postman ou  acessando o endpoint através do navegador. 
+
+# Questão 3
+
+1. Testando
