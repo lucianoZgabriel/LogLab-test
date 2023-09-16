@@ -61,11 +61,11 @@ Nesta aplicação podemos criar uma DB no MySQL através do CLI do Sequelize, e 
   },
   ...
 }
-6. Execute no terminal `npx sequelize-cli db:create` para a criacação do DB
+6. Execute no terminal `npx sequelize-cli db:create` para a criação do DB
 7. Para criação do modelo execute no terminal: `npx sequelize-cli model:generate --name nome_da_tabela --attributes nome:string,email:string`
 8. Para migrar o modelo execute a linha: `npx sequelize-cli db:migrate`
-9. No arquivo `server.js`, na parte de conexão com o BD, coloque o seu usúario e senha do MySQL e o nome do DB criado.
-10. Na parte de Modelo, altere a linha `tableName: 'usuarios'` para `tableName: 'nome_tabela_criada'`
+9. No arquivo `server.js`, na parte de conexão com o BD, coloque o seu usuário e senha do MySQL e o nome do DB criado.
+10. Na parte de Modelo, altere a linha `tableName: 'usuarios'` para `tableName: 'nome_sua_tabela_criada'`
 11. Execute o comando `node server.js`
 12. Para gerar os dados e inserir no BD criado, acesse `http://localhost:3000/gerar-dados`
 13. Para ver a lista de usuários cadastradas no BD, acesse `http://localhost:3000/usuarios`
