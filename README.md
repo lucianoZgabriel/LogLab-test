@@ -1,6 +1,6 @@
 # LogLab-test
 
-# Questão 2 (API Rest com Node.js e Express) 
+# * Questão 2 (API Rest com Node.js e Express) 
 
 Este projeto é uma API Rest que retorna uma lista de usuários fictícios gerados a partir da biblioteca `faker`.
 
@@ -18,7 +18,7 @@ Esta API pode ser testada usando ferramentas como Postman ou  acessando o endpoi
 
 
 
-# Questão 3
+# * Questão 3
 
 Página HTML com a exibição de alguns produtos.
 
@@ -29,7 +29,7 @@ Página HTML com a exibição de alguns produtos.
 
    
 
-# Questão 4 (Aplicação React + Vite)
+# * Questão 4 (Aplicação React + Vite)
 
 Esta é uma aplicação em React que exibe uma lista de itens, com um botão onde a cada clique um item é adicionado na lista e exibido na página.
 
