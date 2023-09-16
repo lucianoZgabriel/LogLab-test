@@ -15,7 +15,7 @@ Este projeto é uma API Rest que retorna uma lista de usuários fictícios gerad
 ## Testando
 
 Esta API pode ser testada usando ferramentas como Postman ou  acessando o endpoint através do navegador. 
-
+_________________________________
 
 
 # * Questão 3
@@ -26,8 +26,7 @@ Página HTML com a exibição de alguns produtos.
 
 1. Clone o repositório para a sua máquina local.
 2. Na pasta do projeto, abrir o arquivo `index.html` com o navegador.
-
-   
+_________________________________   
 
 # * Questão 4 (Aplicação React + Vite)
 
