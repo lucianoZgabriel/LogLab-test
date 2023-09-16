@@ -20,10 +20,27 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #03214b;
   color: #fff;
   text-align: center;
   padding: 1.5rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.8rem;
+  gap: 3rem;
+  margin: 1.5rem;
+  align-items: baseline;  
+}
+.nav a {
+  color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0 0;
 }
 
 .card-container {
@@ -49,6 +66,8 @@ header {
   width: 100%;
   /* height: 200px; */
   object-fit: cover;
+  padding: 1rem 1rem 0;
+  border-radius: .5rem;
 }
 
 .card h2 {
@@ -56,15 +75,33 @@ header {
 }
 
 .card p {
+  font-size: 1.6rem;
   padding: 0 1rem 1rem 1rem;
 }
 
 footer {
-  background-color: #333;
+  background-color: #03214b;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.btn-buy {
+  background-color: #03214b;
+  color: white;
+  font-size: 1.2rem;
+  padding: .75rem 1.25rem;
+  border-radius: .5rem;
+  border: 0;
+  transition: .3s;
+  margin-bottom: 2rem;
+  width: 15rem;
+  
+}
+
+.btn-buy:hover {
+  cursor: pointer;
 }
