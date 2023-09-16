@@ -47,7 +47,7 @@ Uma API que retorna uma lista de produtos.
 
 ## Instruções para execução
 
-Clone o repositório para a sua máquina local.
+1. Clone o repositório para a sua máquina local.
 2. Navegue até a pasta do projeto via terminal.
 3. Execute `npm install` para instalar as dependências.
 4. Execute o comando `npm run dev`.
