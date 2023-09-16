@@ -41,6 +41,21 @@ Esta é uma aplicação em React que exibe uma lista de itens, com um botão ond
 5. Para rodar a aplicação, execute `npm run dev`.
 __________________________________
 
+# Questão 5 (API Next.js + next-connect)
+
+Uma API que retorna uma lista de produtos.
+
+## Instruções para execução
+
+Clone o repositório para a sua máquina local.
+2. Navegue até a pasta do projeto via terminal.
+3. Execute `npm install` para instalar as dependências.
+4. Execute o comando `npm run dev`.
+5. [Após isso o aplicativo estará rodando em `http://localhost:3000`
+6. O endpoint poderá ser acessado em `http://localhost:3000/api/produtos`
+_________________________________
+
+
 # * Questão 8 (Criar DB no MySQL com o Sequelize + API)
 
 Nesta aplicação podemos criar uma DB no MySQL através do CLI do Sequelize, e integrar com uma API que gera dados fictícios e insere no BD.
