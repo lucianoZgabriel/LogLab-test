@@ -19,3 +19,11 @@ Esta API pode ser testada usando ferramentas como Postman ou  acessando o endpoi
 # Questão 3
 
 1. Testando
+
+# Questão 4 (Aplicação React + Vite)
+
+1. Necessário a versão mais recente do Node.js (20.6.1)
+2. Clone o repositório para a sua máquina local.
+3. Navegue até a pasta do projeto via terminal.
+4. Execute `npm install` para instalar as dependências.
+5. Para rodar a aplicação, execute `npm run dev`.
