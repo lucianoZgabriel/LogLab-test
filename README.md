@@ -16,11 +16,24 @@ Este projeto é uma API Rest que retorna uma lista de usuários fictícios gerad
 
 Esta API pode ser testada usando ferramentas como Postman ou  acessando o endpoint através do navegador. 
 
+
+
 # Questão 3
 
-1. Testando
+Página HTML com a exibição de alguns produtos.
+
+## Instruções para execução
+
+1. Clone o repositório para a sua máquina local.
+2. Na pasta do projeto, abrir o arquivo `index.html` com o navegador.
+
+   
 
 # Questão 4 (Aplicação React + Vite)
+
+Esta é uma aplicação em React que exibe uma lista de itens, com um botão onde a cada clique um item é adicionado na lista e exibido na página.
+
+## Instruções para execução
 
 1. Necessário a versão mais recente do Node.js (20.6.1)
 2. Clone o repositório para a sua máquina local.
