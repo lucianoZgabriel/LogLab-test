@@ -39,3 +39,34 @@ Esta é uma aplicação em React que exibe uma lista de itens, com um botão ond
 3. Navegue até a pasta do projeto via terminal.
 4. Execute `npm install` para instalar as dependências.
 5. Para rodar a aplicação, execute `npm run dev`.
+__________________________________
+
+# * Questão 8 (Criar DB no MySQL com o Sequelize + API)
+
+Nesta aplicação podemos criar uma DB no MySQL através do CLI do Sequelize, e integrar com uma API que gera dados fictícios e insere no BD.
+
+## Instruções para execução
+
+1. Clone o repositório para a sua máquina local.
+2. Navegue até a pasta do projeto via terminal.
+3. Execute `npm install` para instalar as dependências.
+4. Configure sua conexão no arquivo `config/config.json` :
+5. {
+  "development": {
+    "username": "seu_usuario_mysql",
+    "password": "sua_senha_mysql",
+    "database": "nome_db_novo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  ...
+}
+6. Execute no terminal `npx sequelize-cli db:create` para a criacação do DB
+7. Para criação do modelo execute no terminal: `npx sequelize-cli model:generate --name nome_da_tabela --attributes nome:string,email:string`
+8. Para migrar o modelo execute a linha: `npx sequelize-cli db:migrate`
+9. No arquivo `server.js`, na parte de conexão com o BD, coloque o seu usúario e senha do MySQL e o nome do DB criado.
+10. Na parte de Modelo, altere a linha `tableName: 'usuarios'` para `tableName: 'nome_tabela_criada'`
+11. Execute o comando `node server.js`
+12. Para gerar os dados e inserir no BD criado, acesse `http://localhost:3000/gerar-dados`
+13. Para ver a lista de usuários cadastradas no BD, acesse `http://localhost:3000/usuarios`
+
