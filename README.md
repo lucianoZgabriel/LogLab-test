@@ -1,5 +1,17 @@
 # LogLab-test
 
+# * Questão 1 (Angular)
+
+Implementação de um botão que reage quando clicado com um alerta.
+
+## Instruções para execução
+
+1. Clone o repositório para a sua máquina local.
+2. Navegue até a pasta do projeto via terminal.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `ng serve`
+____________________________________ 
+
 # * Questão 2 (API Rest com Node.js e Express) 
 
 Este projeto é uma API Rest que retorna uma lista de usuários fictícios gerados a partir da biblioteca `faker`.
