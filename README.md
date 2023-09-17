@@ -55,6 +55,30 @@ Uma API que retorna uma lista de produtos.
 6. O endpoint poderá ser acessado em `http://localhost:3000/api/produtos`
 _________________________________
 
+# * Questão 7 (React, Next.js, HTML, CSS, Js)
+
+Esta aplicação consiste em uma interface frontend desenvolvida com React que interage com duas APIs backend distintas para exibir listas de usuários e produtos.
+A aplicação apresenta uma lista de usuários obtida de uma API desenvolvida com Express, de forma aleatória, contendo ao lado um botão para editar o nome.
+A lista de produtos é mostrada proveniente de uma API construída usando Next.js
+
+## Instruções para execução
+
+1. Clone o repositório para a sua máquina local.
+2. Navegue até o diretório `node-api`
+3. Execute o comando `npm instal`para instalar as dependências.
+4. Execute no terminal `node server.js` para rodar o servidor na porta 4000.
+5. Acesse no navegador `http://localhost:4000/usuarios`, para certificar que está on-line.
+6. Volte para diretório raiz do projeto.
+7. Entre no diretório `next-api`
+8. Execute o comando `npm install`
+9. No terminal rode `npm run dev` para conectar o servidor na porta 3000.
+10. Acesse no navegador `http://localhost:3000/api/products`, para certificar que está on-line.
+11. Na pasta raiz, entre em `react-app`
+12. Execute `npm install`
+13. No terminal execute `npm run dev`
+14. Aplicação já deverá estar rodando.
+________________________________
+
 
 # * Questão 8 (Criar DB no MySQL com o Sequelize + API)
 
