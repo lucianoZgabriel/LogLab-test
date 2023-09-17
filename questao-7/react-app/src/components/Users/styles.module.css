@@ -1,0 +1,19 @@
+.userList{
+  background-color: rgb(243, 224, 7);
+}
+
+.userList h2{
+  text-align: center;
+}
+
+.userList ul{
+  margin: 20px;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.userList button{
+  margin-left: -20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}

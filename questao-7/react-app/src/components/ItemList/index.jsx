@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './styles.module.css'
 
 const ItemList = () => {
   const [items, setItems] = useState([]);
@@ -12,7 +13,7 @@ const ItemList = () => {
   };
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <input
         type="text"
         placeholder="Novo item"

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import styles from './styles.module.css'
 
 function Users() {
     const [users, setUsers] = useState([]);
@@ -36,7 +36,7 @@ function Users() {
         setEditingUserId(null);
     };
     return (
-      <div className="users-list">
+      <div className={styles.userList}>
           <h2>Lista de Usuários</h2>
           <ul>
               {users.map(user => (

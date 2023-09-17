@@ -1,0 +1,12 @@
+.productsList {
+  background-color: rgb(208, 53, 53);
+  border-radius: 5px;
+}
+
+.productsList h2 {
+  padding: 0 10px;
+}
+
+.productsList li {
+  color: rgb(13, 13, 13)
+}
