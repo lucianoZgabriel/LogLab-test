@@ -65,14 +65,14 @@ A lista de produtos é mostrada proveniente de uma API construída usando Next.j
 
 1. Clone o repositório para a sua máquina local.
 2. Navegue até o diretório `node-api`
-3. Execute o comando `npm instal`para instalar as dependências.
+3. Execute o comando `npm install`para instalar as dependências.
 4. Execute no terminal `node server.js` para rodar o servidor na porta 4000.
-5. Acesse no navegador `http://localhost:4000/usuarios`, para certificar que está on-line.
+5. Acesse no navegador `http://localhost:4000/usuarios` para certificar-se que está on-line.
 6. Volte para diretório raiz do projeto.
 7. Entre no diretório `next-api`
 8. Execute o comando `npm install`
 9. No terminal rode `npm run dev` para conectar o servidor na porta 3000.
-10. Acesse no navegador `http://localhost:3000/api/products`, para certificar que está on-line.
+10. Acesse no navegador `http://localhost:3000/api/products`, para certificar-se que está on-line.
 11. Na pasta raiz, entre em `react-app`
 12. Execute `npm install`
 13. No terminal execute `npm run dev`
